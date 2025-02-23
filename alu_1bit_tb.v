@@ -8,7 +8,7 @@ module alu_1bit_tb;
     wire result, cout;
 
     // Instantiate the ALU
-    ALU_1bit uut (
+    alu_1bit uut (
         .a(a), 
         .b(b), 
         .cin(cin), 
